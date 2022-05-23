@@ -51,4 +51,5 @@ let refreshDice = () => {
 }
 
 refresh.addEventListener('click', refreshHandler);
+window.onload = refreshDice;
 
